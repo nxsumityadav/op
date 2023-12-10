@@ -1,0 +1,18 @@
+.navbar {
+  background: rgba(4, 1, 23, 0.29);
+  background: linear-gradient(
+      90deg,
+      rgba(4, 1, 23, 0) 0%,
+      #271b56 46.87%,
+      rgba(4, 1, 23, 0) 100%
+    ),
+    linear-gradient(0deg, rgba(4, 1, 23, 0.29), rgba(4, 1, 23, 0.29));
+}
+
+.background-image {
+  background-image: url(./assets/bg.png);
+}
+
+.waiting-bg {
+  background-image: url(./assets/bg_mask.png);
+}

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "DM Sans", sans-serif;
+  }
+
+  .chip {
+    @apply flex items-center gap-1.5 border-[1px] border-[#7A52AE] bg-[#17063B] rounded-3xl px-4 py-1;
+  }
+
+  .break-line {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-word;
+    line-clamp: 30; /* Adjust this based on your requirement */
+  }
+}
+
