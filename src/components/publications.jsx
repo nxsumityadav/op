@@ -5,7 +5,7 @@ import { author, journals_2022_sci, journals_2022_scopus, journals_2021_sci, jou
 const Publications = () => {
     return (
         <div className='py-20 text-white'>
-            <p className='text-[40px] font-bold tracking-wide mb-5'>Publications</p>
+            <p className='text-3xl lg:text-4xl font-bold tracking-wide mb-5'>Publications</p>
             <WorkListInTeam topics={["Author"]} list={author} />
             <WorkListInTeam topics={["Journals", "2022 (SCI- Indexed)"]} list={journals_2022_sci} />
             <WorkListInTeam topics={["Journals", "2022 (SCOPUS- Indexed)"]} list={journals_2022_scopus} />

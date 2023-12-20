@@ -23,9 +23,9 @@ const AcademicQualification = () => {
     ];
     return (
         <div className='w-full pt-10'>
-            <p className='text-[40px] font-bold tracking-wide mb-10'>Academic Qualification</p>
-            <div>
-                <table>
+            <p className='text-3xl lg:text-4xl font-bold tracking-wide mb-10'>Academic Qualification</p>
+            <div className="overflow-scroll md:overflow-hidden">
+                <table className="text-sm sm:text-base lg:text-lg">
                     <thead className="bg-[#17063B]">
                         <tr className="border-[1px] border-[#C676FE] rounded-t-lg bg-[#17063B] ">
                             {titles.map((title, index) => (

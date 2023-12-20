@@ -5,6 +5,7 @@
 @layer base {
   html {
     font-family: "DM Sans", sans-serif;
+    background-color: #040117;
   }
 
   .chip {
@@ -17,6 +18,14 @@
     overflow: hidden;
     word-break: break-word;
     line-clamp: 30; /* Adjust this based on your requirement */
+  }
+
+  .btn{
+    @apply transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-[#692BE3] duration-300;
+  }
+
+  .link{
+    @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-800 duration-300;
   }
 }
 

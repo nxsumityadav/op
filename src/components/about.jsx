@@ -3,13 +3,13 @@ import shiningline from "../assets/shining.png";
 
 const About = () => {
     return (
-        <div id="about" className='flex flex-col items-center justify-center pt-[156px]'>
-            <div className='chip'>
+        <div id="about" className='flex flex-col items-center justify-center pt-40'>
+            <div className='chip mb-4'>
                 <img src={shiningline} height={18} width={18} />
-                <p>Let's start</p>
+                <p className="text-sm lg:text-base">Let's start</p>
             </div>
-            <p className='text-[40px] font-bold tracking-wide mb-10'>About Me</p>
-            <div className='text-justify text-lg tracking-[1.2px] opacity-60 gap-4 flex flex-col'>
+            <p className='text-3xl lg:text-4xl font-bold tracking-wide mb-10'>About Me</p>
+            <div className='text-sm sm:text-base lg:text-lg text-justify tracking-[1.2px] opacity-60 gap-4 flex flex-col'>
                 <p>
                     Dr. Om Prakash Verma is currently serving as Assistant Professor in the Department of Instrumentation and Control Engineering, Dr B R Ambedkar NIT Jalandhar. He holds a PhD (IIT Roorkee), M.Tech (Dr B R Ambedkar NIT Jalandhar) and B.Tech (Dr B R Ambedkar University, Agra) respectively. Prior to joining NITJ, he was associated with KIIT deemed to be University, Bhubaneswar; Bansthali Vidyapith, Rajasthan; and Graphic Era University, Dehradun. His research interests includes:  Process Design and Integration for Energy Efficiency; Linear and Nonlinear Dynamical Control System; Optimal, Adaptive and Robust Control; Soft Computing & Optimization Techniques; Machine/Deep/Quantum Learning; Machine/Computer Vision; UAV Autonomous Navigation System
                 </p>

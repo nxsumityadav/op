@@ -9,6 +9,36 @@
     linear-gradient(0deg, rgba(4, 1, 23, 0.29), rgba(4, 1, 23, 0.29));
 }
 
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-elements{
+    position: absolute;
+    right: 0;
+    top: 88px;
+    width: 0;
+    height: calc(100vh - 60px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    padding: 0!important;
+    height: 25rem!important;
+    font-size: 1rem;
+  }
+
+  .nav-elements.active {
+    width: 270px;
+    padding: 2rem!important;
+  }
+    
+}
+
 .background-image {
   background-image: url(./assets/bg.png);
 }
